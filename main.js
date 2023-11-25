@@ -2,7 +2,7 @@ noseX=0;
 noseY=0;
 
 function preload() {
-  lentes = loadImage('https://i.postimg.cc/RCLwvPPB/nariz-oso.webp')
+  lentes = loadImage('https://i.postimg.cc/wxPQNBrb/Lente.png')
 }
 
 function setup() {
@@ -22,8 +22,8 @@ function modelLoaded(){
 
 function draw() {
  image(video, 0, 0, 300, 300);
- circle(noseX, noseY, 20);
- image(lentes, noseX, noseY, 30, 30);
+ image(lentes, noseX-43, noseY-40, 90, 40);
+ 
 }
 
 function take_snapshot(){    
